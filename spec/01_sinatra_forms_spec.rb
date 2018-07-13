@@ -71,7 +71,7 @@ describe "FormsLab::App" do
     end
 
     after do
-      Ship.clear
+      Ship.all.clear
     end
 
     it "returns a 200 status code" do
