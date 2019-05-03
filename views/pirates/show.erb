@@ -1,7 +1,14 @@
 <h1>Display your Pirate here</h1>
-
+<p>Name: <%= @pirate.name %></p><br>
+<p>Weight: <%= @pirate.weight %></p><br>
+<p>Height: <%= @pirate.height %></p><br>
 
 <h2>Display your first ship here</h2>
-
+<p>Name: <%= @ships.first.name %></p><br>
+<p>Type: <%= @ships.first.type %></p><br>
+<p>Booty: <%= @ships.first.booty %></p><br>
 
 <h2>Display your second ship here</h2>
+<p>Name: <%= @ships[1].name %></p><br>
+<p>Type: <%= @ships[1].type %></p><br>
+<p>Booty: <%= @ships[1].booty %></p><br>
