@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Basketball Team Signup</title>
+ </head>
+ <body>
+  <h1>Make your form here</h1>
+  <form method="post" action="/pirates">
+    <p>Name:<input type="text" name="pirate[name]"></p>
+    <p>Weight:<input type="text" name="pirate[weight]"></p>
+    <p>Height: <input type="text" name="pirate[height]"></p>
+
+    <p>Name: <input id = "ship_name_1" type="text" name="pirate[ships][][name]"></p>
+    <p>Type: <input id = "ship_type_1" type="text" name="pirate[ships][][type]"></p>
+    <p>Booty: <input id = "ship_booty_1" type="text" name="pirate[ships][][booty]"></p>
+
+    <p>Name: <input id = "ship_name_2" type="text" name="pirate[ships][][name]"></p>
+    <p>Type: <input id = "ship_type_2" type="text" name="pirate[ships][][type]"></p>
+    <p>Booty: <input id = "ship_booty_2" type="text" name="pirate[ships][][booty]"></p>
+    <input type="submit" id = "Submit">
+  </form>
+ </body>
+</html>
