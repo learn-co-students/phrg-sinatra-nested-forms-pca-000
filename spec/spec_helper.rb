@@ -6,7 +6,6 @@ require 'capybara/dsl'
 RSpec.configure do |config|
   config.include Capybara::DSL
   config.include Rack::Test::Methods
-  config.order = 'default'
 end
 
 def app
